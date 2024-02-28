@@ -113,7 +113,7 @@ strong {
 }
 
 .imagem__perfil {
-    max-width: 50%;
+    width: 50%;
 }
 
 .rodape {
@@ -146,7 +146,6 @@ strong {
     }
     
     .imagem__perfil {
-        max-width: 50%;
-        height: auto;
+        max-width: 100%;     
     }
 }
