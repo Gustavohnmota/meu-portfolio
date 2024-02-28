@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --cor-background: #FFFBF5;
+    --cor-menu: #131313;
+    --cor-texto: #131313;
+    --cor-bottom: #131313;
+    --cor-bottom-hover: #F7EFE5;
+    --cor-emphasis: #7743DB;
+    --cor-footer: #F7EFE5;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--cor-background);
+    color: var(--cor-texto);
+    box-sizing: border-box;
+}
+
+.cabecalho {
+    padding: 3% 0% 0% 15%;
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho__menu__link {
+    font-family: "Protest Riot", sans-serif;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: var(--cor-menu);
+    text-decoration: none;
+}
+
+.apresentacao {
+    padding: 2% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.imagem__logo {
+    display: flex;
+}
+
+.apresentacao__conteudo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.apresentacao__conteudo__titulo {
+    font-size: 2.25rem;
+    font-family: "Protest Riot", sans-serif;
+}
+
+strong {
+    color: var(--cor-emphasis);
+}
+
+.titulo-destaque {
+    color: var(--cor-emphasis);
+}
+
+.apresentacao__conteudo__texto {
+    font-size: 1.125rem;
+    font-family: "Roboto", sans-serif;
+}
+
+.apresentacao__link {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+}
+
+.apresentacao__link_subtitulo {
+    font-size: 1.625rem;
+    font-family: "Roboto", sans-serif;
+    color: #000000;
+}
+
+.apresentacao__link__navegacao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    border: 2px solid var(--cor-bottom);
+    width: 50%;
+    font-size: 1.125rem;
+    font-family: "Roboto", sans-serif;
+    border-radius: 9px;
+    color: var(--cor-quaternaria);
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 500;
+}
+
+.apresentacao__link__navegacao:hover {
+    background-color: var(--cor-bottom-hover);
+    border: 2px solid var(--cor-bottom-hover);
+    cursor: pointer;
+}
+
+.imagem__perfil {
+    width: 50%;
+}
+
+.rodape {
+    background-color: var(--cor-footer);
+    color: var(--cor-texto);
+    font-size: 1.25rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    text-align: center;
+    padding: 20px;
+}
+
+@media (max-width: 1075px) {
+    .cabecalho {
+        padding: 15%;
+    }
+
+    .cabecalho__menu {
+        justify-content: center;
+    }
+
+    .apresentacao {
+        flex-direction: column;
+        padding: 5%;
+        gap: 50px;
+    }
+
+    .apresentacao__conteudo {
+        width: auto;
+    }
+}
