@@ -144,4 +144,9 @@ strong {
     .apresentacao__conteudo {
         width: auto;
     }
+    
+    .imagem__perfil {
+        width: 50%;
+        height: 50%;
+    }
 }
