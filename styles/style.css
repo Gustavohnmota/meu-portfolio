@@ -147,6 +147,6 @@ strong {
     
     .imagem__perfil {
         width: 50%;
-        height: 50%;
+        height: auto;
     }
 }
