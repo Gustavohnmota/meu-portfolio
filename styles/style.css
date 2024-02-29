@@ -112,11 +112,6 @@ strong {
     cursor: pointer;
 }
 
-.imagem__perfil {
-    display: flex;
-    width: 50%;
-}
-
 .rodape {
     background-color: var(--cor-footer);
     color: var(--cor-texto);
@@ -147,7 +142,6 @@ strong {
     }
     
     .imagem__perfil {
-        max-width: 100%;
-        height: auto;
+        width: 100%;
     }
 }
